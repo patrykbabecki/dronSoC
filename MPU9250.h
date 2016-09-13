@@ -1,0 +1,20 @@
+#ifndef MPU9250
+#define MPU9250
+//SPI4
+//PE6 - MOSI
+//PE5 - MISO
+//PE2 - SCK
+//PB7 - CS
+//PE3 - INTTERUPT
+
+
+void MPU9250_ACC_ENABLE(MEMS *mems);
+//MPU9250_GYRO_ENABLE(MEMS *mems);
+//MPU9250_MAGNET_ENABLE(MEMS *mems);
+
+void MPU9250_ACC_READ(MEMS *mems);
+//MPU9250_GYRO_READ(MEMS *mems);
+//MPU9250_MAGNET_READ(MEMS *mems);
+
+
+#endif
